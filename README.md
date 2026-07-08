@@ -2,9 +2,8 @@
 
 A deep learning application that classifies clothing images into 10 fashion categories using a Convolutional Neural Network (CNN) trained on the Fashion MNIST dataset. Built with a decoupled architecture — a **FastAPI** backend serving the model via REST API, and a **Streamlit** frontend with a custom dark theme consuming it.
 
-🔗 **Live Demo:** [Add your Streamlit app link here]
-
-🔗 **API Docs:** [Add your backend URL + /docs here]
+🔗 **Live Demo:** https://fashion-classification-using-cnn-dl-project-app.streamlit.app/
+🔗 **API Docs:** https://fashion-classification-using-cnn-dl-project-production.up.railway.app/docs
 
 ---
 
@@ -246,7 +245,7 @@ This project uses a **two-service deployment**:
 
 Once the backend is deployed, its public URL is added to the frontend's Streamlit Cloud secrets:
 ```toml
-BACKEND_URL = "https://your-backend-url.up.railway.app"
+BACKEND_URL = "https://fashion-classification-using-cnn-dl-project-production.up.railway.app"
 ```
 
 ---
