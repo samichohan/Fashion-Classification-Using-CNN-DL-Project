@@ -3,6 +3,7 @@
 A deep learning application that classifies clothing images into 10 fashion categories using a Convolutional Neural Network (CNN) trained on the Fashion MNIST dataset. Built with a decoupled architecture — a **FastAPI** backend serving the model via REST API, and a **Streamlit** frontend with a custom dark theme consuming it.
 
 🔗 **Live Demo:** https://fashion-classification-using-cnn-dl-project-app.streamlit.app/
+
 🔗 **API Docs:** https://fashion-classification-using-cnn-dl-project-production.up.railway.app/docs
 
 ---
